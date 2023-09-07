@@ -1,0 +1,74 @@
+{
+  "1th title": {
+    "prefix": "1t",
+    "body": [
+      "# $0"
+    ]
+  },
+  "2th title": {
+    "prefix": "2t",
+    "body": [
+      "## $0"
+    ]
+  },
+  "3th title": {
+    "prefix": "3t",
+    "body": [
+      "### $0"
+    ]
+  },
+  "4th title": {
+    "prefix": "4t",
+    "body": [
+      "#### $0"
+    ]
+  },
+  "bold": {
+    "prefix": "bo",
+    "body": [
+      "**${1:bold}**$0"
+    ]
+  },
+  "italic": {
+    "prefix": "it",
+    "body": [
+      "*${1:italic}*$0"
+    ]
+  },
+  "bold and italic": {
+    "prefix": "bi",
+    "body": [
+      "***${1:bi}***$0"
+    ]
+  },
+  "c code": {
+    "prefix": "c",
+    "body": [
+      "```c",
+      "${0}",
+      "```"
+    ]
+  },
+  "code inline": {
+    "prefix": "lc",
+    "body": [
+      "`${1:linecode}` $0"
+    ]
+  },
+  "cpp code": {
+    "prefix": "cpp",
+    "body": [
+      "```c",
+      "${0}",
+      "```"
+    ]
+  },
+  "python code": {
+    "prefix": "py",
+    "body": [
+      "```python",
+      "${0}",
+      "```"
+    ]
+  }
+}

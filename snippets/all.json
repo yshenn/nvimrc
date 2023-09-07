@@ -1,0 +1,43 @@
+{
+  "single quotes": {
+    "prefix": "'",
+    "body": [
+      "'$1' $0"
+    ]
+  },
+  "double quotes": {
+    "prefix": "\"",
+    "body": [
+      "\"$1\" $0"
+    ]
+  },
+  "brakets": {
+    "prefix": "(",
+    "body": [
+      "($1)$0"
+    ]
+  },
+  "curly braces": {
+    "prefix": "{",
+    "body": [
+      "{$1}$0"
+    ]
+  },
+  "snip2": {
+    "prefix": "test2",
+    "body": [
+      "pos1 $1",
+      "pos2 $2",
+      "pos3$0"
+    ]
+  },
+  "title or chapter in code text": {
+    "prefix": "ctitle",
+    "body": [
+      "\/****************************************",
+      "*************       ${1:num}     *************",
+      "****************************************\/",
+      "$0"
+    ]
+  }
+}

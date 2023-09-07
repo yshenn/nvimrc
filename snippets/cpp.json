@@ -1,0 +1,8 @@
+{
+  "cpptest": {
+    "prefix": "cpptest",
+    "body": [
+      "cpp test"
+    ]
+  }
+}
